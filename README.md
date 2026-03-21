@@ -22,7 +22,9 @@ Este repositório contém o projeto prático desenvolvido para a disciplina de I
 
 ## ✍🏻 Descrição do Conjuto de Dados
 
-...
+O presente conjunto de dados foi construído a partir da coleta de informações por meio da API pública de despesas dos deputados. A partir dessa fonte, foi possível obter um volume significativo de dados, permitindo a extração de informações relevantes para diversas análises. A diversidade de atributos e a confiabilidade das informações, por serem provenientes de uma base oficial, tornam o dataset um campo fértil para exploração. O conjunto inclui um arquivo CSV com registros detalhados das despesas parlamentares, possibilitando a identificação de padrões de gastos e a realização de análises históricas ao longo do tempo.
+
+Além disso, o dataset contempla variáveis importantes, como filiação partidária, categorias de gastos, recorrência de mandatos, nível de escolaridade e sexo dos parlamentares, entre outras características relevantes. Essa riqueza de informações contribui para análises mais robustas e aprofundadas. Apesar dos desafios associados ao tratamento e à manipulação de grandes volumes de dados, a abrangência e a qualidade do conjunto proporcionam maior confiabilidade aos resultados, tornando-o adequado para a construção de análises consistentes e detalhadas no contexto deste projeto.
 
 ---
 
