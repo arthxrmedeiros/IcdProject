@@ -12,11 +12,11 @@ Este repositório contém o projeto prático desenvolvido para a disciplina de I
 
 ### Objetivos Específicos
 
- >  *Consolidação de Dados:* Integrar e higienizar bases de dados heterogêneas em um formato tabular estruturado e confiável.
+ >  **Consolidação de Dados:** Integrar e higienizar bases de dados heterogêneas em um formato tabular estruturado e confiável.
 
- >  *Análise de Eficiência e Gastos:* Identificar possíveis correlações entre os gastos de gabinete e o volume/relevância das atividades legislativas propostas.
+ >  **Análise de Eficiência e Gastos:** Identificar possíveis correlações entre os gastos de gabinete e o volume/relevância das atividades legislativas propostas.
 
- > *Visualização de Padrões:* Desenvolver visualizações gráficas que facilitem a interpretação de dados complexos, tornando o perfil do parlamentar acessível a qualquer cidadão.
+ > **Visualização de Padrões:** Desenvolver visualizações gráficas que facilitem a interpretação de dados complexos, tornando o perfil do parlamentar acessível a qualquer cidadão.
 
 ---
 
@@ -32,11 +32,19 @@ Este repositório contém o projeto prático desenvolvido para a disciplina de I
 
 ---
 
+## 📄 Documentação
+``` bash
+https://drive.google.com/drive/folders/1459TTvARra90e6lcWu53kMy9Np4Ix0nT?usp=drive_link
+```
+
+---
+
+
 ## 📁 Estruturação do Dataset
 
 Os arquivos do dataset são arquivos CSV contendo dados de indentificação sobre os deputados. 
 
-**Formato dos Dados:**
+### Formato dos Dados:
 
 |  id  |       uri        | nomeParlamentar |     siglaPartido   |    uriPartido    |  siglaUf | idLegislatura  |    urlFoto     | email | sexo | ultimaSituacao | condicaoEleitoral | nomeEleitoral  |      nomeCivil    | dataNascimento | falecido | ufNascimento | escolaridade |
 |------|------------------|-----------------|--------------------|------------------|----------|----------------|----------------|-------|------|-----------|---------|----------------|-------------------|----------------------|----------|--------------|--------------|
@@ -45,7 +53,7 @@ Os arquivos do dataset são arquivos CSV contendo dados de indentificação sobr
 
 ---
 
-**Descrição Colunas:**
+### Descrição Colunas:
 
 | Coluna | Descrição |
 |---|-------|
@@ -58,19 +66,15 @@ Os arquivos do dataset são arquivos CSV contendo dados de indentificação sobr
 | ``idLegislatura`` | Identificadores numéricos correspondentes aos períodos de legislatura (mandatos de 4 anos) em que o parlamentar esteve ativo. | 
 | ``urlFoto`` | Link de acesso direto para o retrato oficial do parlamentar. | 
 | ``email`` | Link de acesso direto para o retrato oficial do parlamentar. | 
-| ``sexo`` | Sexo do parlamentar (M para Masculino, F para Feminino). | 
+| ``sexo`` | Sexo do parlamentar ( ``M`` para Masculino, ``F`` para Feminino). | 
 | ``ultimaSituação`` | Último status registado do mandato do parlamentar. |
 | ``condicaoEleitoral`` | Condição na qual o parlamentar assumiu o mandato. |
 | ``nomeEleitoral`` | Nome utilizado pelo candidato nas urnas e em campanhas eleitorais. |
 | ``nomeCivil`` | Nome completo de registo civil do indivíduo. |
 | ``dataNascimento`` | Data de nascimento formatada no padrão ISO |
-| ``falecido`` | Indicador binário sobre o óbito do parlamentar(``0`` para vivo e ``1`` para falecido). |
+| ``falecido`` | Indicador binário sobre o óbito do parlamentar( ``0`` para vivo e ``1`` para falecido). |
 | ``ufNascimento`` | Sigla da Unidade da Federação de naturalidade do parlamentar. |
 | ``escolaridade`` | Grau máximo de instrução formal declarado. |
 
 ---
 
-## 📄 Documentação
-``` bash
-https://drive.google.com/drive/folders/1459TTvARra90e6lcWu53kMy9Np4Ix0nT?usp=drive_link
-```
