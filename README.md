@@ -30,7 +30,22 @@ Além disso, o dataset contempla variáveis importantes, como filiação partid�
 
 ## 🎲 Processo de Coleta de Dados
 
-...
+Para realizar a coleta de dados, foi utilizada a API de dados abertos da Câmara dos Deputados. A partir dessa API, dividimos as informações coletadas na criação de três *datasets* diferentes:
+
+### 1. Dataset de Deputados
+* Tivemos que varrer os dados duas vezes durante a coleta.
+* **Primeira etapa:** Foi feita para coletar todos os deputados. Como cada requisição trazia 100 resultados por vez, precisamos navegar pelas páginas e pelos anos para obter a lista completa.
+* **Segunda etapa:** Acessamos os dados de um por um através do ID. O objetivo era pegar informações mais detalhadas sobre eles, como a data de nascimento, se o deputado já faleceu e o estado em que nasceu.
+
+### 2. Dataset de Despesas
+* **Requisições individuais:** Tivemos que fazer requisições individuais para cada deputado (de uma a cinco requisições por parlamentar), pois a API não permite coletar as despesas gerais, apenas listando por deputado.
+* **Navegação:** Assim como no primeiro *dataset*, a coleta trazia os dados de 100 em 100, o que exigiu que navegássemos entre as páginas de despesas de cada deputado.
+* **Ajuste manual:** Tivemos também o trabalho de acessar e adicionar uma coluna extra com o ID do deputado, pois as despesas naturalmente não vinham com o ID vinculado a elas.
+
+### 3. Dataset de Proposições
+* **Tempo de coleta:** Este foi o *dataset* que mais demorou para ser coletado, levando cerca de 4 horas rodando.
+* **Abrangência:** Tivemos que navegar por todas as proposições desde o ano de 2000, coletando ano a ano até 2025, o que envolveu muitas páginas a cada ano.
+* **Obs.:** Apesar da coleta ter sido feita, nós não vamos utilizar esse *dataset* de proposições na nossa análise de dados. O nosso foco principal será em analisar o *dataset* de despesas.
 
 ---
 
