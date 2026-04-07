@@ -75,23 +75,30 @@ Os arquivos do dataset são arquivos CSV contendo dados de indentificação sobr
 | Coluna | Descrição |
 |---|-------|
 | `id` | Identificador único do parlamentar no sistema da Câmara dos Deputados. |
-| `uri` | Endereço de acesso (URL) aos dados completos do parlamentar diretamente na API. |
-| ``nomeParlamentar``  | Nome público pelo qual o político atua e é conhecido na Câmara.  |
-| `siglaPartido` | Histórico das siglas partidárias às quais o parlamentar esteve filiado ao longo das legislaturas registradas. | 
-| `uriPartido` | Endereço de acesso (URL) aos dados do partido associado. |
-| `siglaUf `| Histórico das Unidades da Federação (estados) pelas quais o parlamentar foi eleito. |
-| ``idLegislatura`` | Identificadores numéricos correspondentes aos períodos de legislatura (mandatos de 4 anos) em que o parlamentar esteve ativo. | 
-| ``urlFoto`` | Link de acesso direto para o retrato oficial do parlamentar. | 
-| ``email`` | Link de acesso direto para o retrato oficial do parlamentar. | 
+| ``nome_parlamentar``  | Nome público pelo qual o político atua e é conhecido na Câmara.  |
+| `sigla_partido` | Histórico das siglas partidárias às quais o parlamentar esteve filiado ao longo das legislaturas registradas. | 
+| `uri_partido` | Endereço de acesso (URL) aos dados do partido associado. |
+| `sigla_uf `| Histórico das Unidades da Federação (estados) pelas quais o parlamentar foi eleito. |
+| ``id_legislatura`` | Identificadores numéricos correspondentes aos períodos de legislatura (mandatos de 4 anos) em que o parlamentar esteve ativo. | 
+| ``url_foto`` | Link de acesso direto para o retrato oficial do parlamentar. | 
 | ``sexo`` | Sexo do parlamentar ( ``M`` para Masculino, ``F`` para Feminino). | 
-| ``ultimaSituação`` | Último status registado do mandato do parlamentar. |
-| ``condicaoEleitoral`` | Condição na qual o parlamentar assumiu o mandato. |
-| ``nomeEleitoral`` | Nome utilizado pelo candidato nas urnas e em campanhas eleitorais. |
-| ``nomeCivil`` | Nome completo de registo civil do indivíduo. |
-| ``dataNascimento`` | Data de nascimento formatada no padrão ISO |
+| ``ultima_situação`` | Último status registado do mandato do parlamentar. |
+| ``condicao_eleitoral`` | Condição na qual o parlamentar assumiu o mandato. |
+| ``data_nascimento`` | Data de nascimento formatada no padrão ISO |
 | ``falecido`` | Indicador binário sobre o óbito do parlamentar( ``0`` para vivo e ``1`` para falecido). |
-| ``ufNascimento`` | Sigla da Unidade da Federação de naturalidade do parlamentar. |
+| ``uf_nascimento`` | Sigla da Unidade da Federação de naturalidade do parlamentar. |
 | ``escolaridade`` | Grau máximo de instrução formal declarado. |
-
+| `quantidade_eleicoes` | Número total de eleições disputadas pelo parlamentar ao longo de sua carreira. |
+| ``ultima_legislatura`` | Número da última legislatura (período legislativo) em que o parlamentar atuou ou foi eleito. |
+| ``primeira_legislatura`` | Número da primeira legislatura em que o parlamentar iniciou sua atuação na Câmara. |
+| ``idade_ultima_legislatura `` | dade aproximada do parlamentar no início ou durante a última legislatura. Pode ter valores nulos se o ano de nascimento for desconhecido. |
+| ``idade_primeira_legislatura`` | dade aproximada do parlamentar no início ou durante a primeira legislatura. Pode ter valores nulos se o ano de nascimento for desconhecido. |
+| ``soma_despesas`` | Soma total das despesas registradas para o parlamentar ao longo de sua carreira. Pode ter valores nulos se as despesas não estiverem disponíveis. |
+| ``ano`` | Ano da despesa. |
+| ``mes`` | Mês da despesa. |
+| ``tipo_documento`` | Tipo do documento fiscal associado à despesa. |
+| ``valor_liquido`` | Valor líquido da despesa. |
+| ``nome_fornecedor`` | Nome do fornecedor ou prestador de serviço. |
+| ``id_deputado`` | Identificador único do deputado associado à despesa. |
 ---
 
